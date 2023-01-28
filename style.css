@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0%;
+    font-family: sans-serif
+}
+
+body {
+    color: white;
+    background-color: rgb(27, 26, 26);
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #fa-icon {
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 0 25px;
+    text-transform: capitalize;
+    transition: all .4s;
+    font-family: oswald, son-sarif;
+}
+
+nav ul li a i {
+    color: red;
+    margin-right: 9px;
+    font-size: 19px;
+
+}
+
+.Active,
+nav ul li a:hover {
+    color: rgb(209, 5, 5);
+    /* border-bottom: 2px solid white; */
+    padding-bottom: 4px;
+}
+
+nav h1 span {
+    color: rgb(241, 24, 42);
+}
+
+nav h1 {
+    margin: 20px 0 0 20px;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav #btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: red;
+    margin: 25px 25px 0 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+nav #btn:hover {
+    /* transform: scale(1.1); */
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+nav button a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Content Section 1  */
+
+.content {
+    width: 700px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.content h4 {
+    font-size: 18px;
+}
+
+.content h1 {
+    font-size: 60px;
+}
+
+.content h1 span {
+
+    color: rgb(255, 0, 0);
+}
+
+.content h3 {
+    font-size: 20px;
+    letter-spacing: 12.2px;
+    /* word-spacing: 20px; */
+    transform: translateY();
+}
+
+.newsletter form {
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+#mail {
+    width: 410px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    position: relative;
+    outline: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#submit {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 328px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px red, 0 0 10px red;
+    cursor: pointer;
+    transition: all .2s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: black;
+
+}
+
+.poster1 img {
+    width: 500px;
+    position: absolute;
+    top: -150px;
+    left: 570px;
+}
+
+
+/* CONTENT 2 SECTION START  */
+
+.content2 {
+    display: flex;
+    margin-top: 0px;
+    height: 100vh;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    border-top: 20px double rgb(61, 61, 61);
+    border-left: 20px double rgb(61, 61, 61);
+    border-right: 20px double rgb(61, 61, 61);
+
+}
+
+.poster-about img {
+    width: 400px;
+    position: absolute;
+    left: 200px;
+    margin-top: 47px;
+}
+
+.content2 h1 {
+    text-align: center;
+    left: 700px;
+    margin-top: 100px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+
+}
+
+.content2 h1 span {
+    color: rgb(209, 5, 5);
+}
+
+.about-me {
+    border-left: 5px double white;
+    position: absolute;
+    left: 600px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(26, 24, 24);
+    border-radius: 0 20px 20px 0;
+}
+
+.about-me p {
+    padding: 20px;
+}
+
+/* OUR SERVICES SECTION  */
+
+.services {
+
+    display: flex;
+    background-color: black;
+    height: 700px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.our-service h1 {
+    position: absolute;
+    top: 45px;
+    left: 520px;
+    font-size: 50px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 0px 50px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+    position: relative;
+}
+
+.card h1 {
+    margin-top: 25px;
+}
+
+.card h1 span {
+    color: rgb(209, 5, 5);
+
+}
+
+.card p {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    background-color: rgb(209, 5, 5);
+    font-weight: 500;
+    font-family: 'Gill Sans';
+    outline: none;
+    transition: all.3s;
+
+}
+
+.card a:hover {
+    background-color: transparent;
+    outline: 2px solid rgb(209, 5, 5);
+}
+
+/* CONTENT 3 SECTION  */
+
+.content3 {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    border-top: 2px solid rgb(252, 252, 252);
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+.content3 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    padding-top: 150px;
+    text-transform: capitalize;
+}
+
+.content3 button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(209, 5, 5);
+    box-shadow: 3px 3px 7px -3px black;
+    color: white;
+    margin-top: 20px;
+    text-transform: capitalize;
+    transition: ease-in .2s;
+    cursor: pointer;
+
+}
+
+.content3 button:hover {
+    outline: 2px solid white;
+    background-color: transparent;
+}
+
+/* SERVICE2 SECTION  */
+.service2 {
+    height: 500px;
+    background-color: black;
+    text-align: center;
+
+}
+
+.service2 h1 {
+    padding-top: 5em;
+    font-size: 40px;
+    letter-spacing: 8px;
+    word-spacing: 18px;
+    text-transform: uppercase;
+
+}
+
+.service2 p {
+    font-size: 18px;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+
+}
+
+.service2 a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.service2 a i {
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+#facebook-logo {
+    width: 17px;
+}
+
+
+
+
+/* Responsive SECTION  */
+
+@media (max-width: 800px) {
+
+    /* NAVBAR SECTION  */
+
+
+    nav #fa-icon {
+        display: block;
+    }
+
+    nav {
+        display: block;
+
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    nav h1 {
+        margin-top: 0%;
+        padding-top: 100px;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+    }
+
+    .main {
+        height: 150vh;
+    }
+
+    /* CONTENT SECTION 1  */
+    .content {
+        top: 600px;
+    }
+}
